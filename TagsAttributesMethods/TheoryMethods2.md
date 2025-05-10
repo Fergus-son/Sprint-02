@@ -219,3 +219,74 @@ const createTodolist = (title: string) => {
   setTodolists([newTodolist, ...todolists])
   <!-- setTasks({ ...tasks, [todolistId]: [] }) -->
 }
+
+# input
+
+## autoFocus
+
+- Используется чтобы при переходе в режим редактирования input курсор появлялся автоматически  
+
+## onBlur
+
+- По сути переход обратно в режим отображения, чтобы на нажатие в другом месте страницы оно обратно превращалось в обычный span
+
+  <input value={value} onBlur={turnOffEditMode} autoFocus />
+
+## value 
+
+- Чтобы менять значение текста, нужно title поместить в useState, для возможности перерисовки (задаем значению title менющиеся занчение value, для возможности работы с value)
+
+export const EditableSpan = ({ value }: Props) => {
+  <!-- const [title, setTitle] = useState(value) -->
+ 
+  /*...*/
+ 
+  <!-- const changeTitle = (event: ChangeEvent<HTMLInputElement>) => {
+    setTitle(event.currentTarget.value)
+  } -->
+ 
+  return (
+      <>
+        {isEditMode ? (
+            <!-- <input value={title} onChange={changeTitle} onBlur={turnOffEditMode} autoFocus /> -->
+        ) : (
+            <span onDoubleClick={turnOnEditMode}>{value}</span>
+        )}
+      </>
+  )
+}
+
+
+
+
+
+# span
+
+## onDoubleClick
+
+- Правильная реализация:
+
+  export const EditableSpan = ({ value }: Props) => {
+  const [isEditMode, setIsEditMode] = useState(false)
+ 
+  const turnOnEditMode = () => {
+    setIsEditMode(true)
+  }
+ 
+  return (
+      <>
+        {isEditMode ? (
+            <input value={value} autoFocus />
+        ) : (
+            <span onDoubleClick={turnOnEditMode}>{value}</span>
+        )}
+      </>
+  )
+}
+
+
+
+
+friends[3][1]
+
+friends[students[1].id][2]
