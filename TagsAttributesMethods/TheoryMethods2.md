@@ -290,3 +290,13 @@ export const EditableSpan = ({ value }: Props) => {
 friends[3][1]
 
 friends[students[1].id][2]
+
+
+# Material UI
+
+install:
+
+* pnpm add @mui/material @emotion/react @emotion/styled @mui/icons-material
+
+- Material UI - библиотека компонентов для React, которая реализует принципы дизайна Google Material Design.
+

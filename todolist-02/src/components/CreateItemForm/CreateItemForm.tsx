@@ -1,5 +1,5 @@
+import { Button } from "@mui/material";
 import { ChangeEvent, KeyboardEvent, useState } from "react";
-import { GlobalButton } from "../GlobalButton";
 // import { Todolist } from "../../App";
 
 type CreateItemFormType = {
@@ -44,7 +44,7 @@ export const CreateItemForm = ({ onCreateItem }: CreateItemFormType) => {
             <input className={error ? 'error' : ''} value={taskTitle}
                 onChange={changeItemTitleHandler}
                 onKeyDown={changeItemTitleOnEnterHandler} />
-            <GlobalButton title="+" onClick={createItemHandler} />
+                <Button variant="contained" onClick={createItemHandler}>+</Button>
             {error && <div className={'error-message'}>{error}</div>}
         </div>
     );
