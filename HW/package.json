@@ -1,6 +1,6 @@
 {
   "name": "hws2",
-  "homepage": "https://github.com/Fergus-son/Sprint-02/tree/main/HW",
+  "homepage": "https://github.com/Fergus-son/Sprint-02",
   "version": "0.1.0",
   "dependencies": {
     "@emotion/react": "11.10.4",
