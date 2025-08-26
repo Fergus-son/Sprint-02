@@ -1,8 +1,7 @@
 {
   "name": "hws2",
-  "homepage": "http://IgnatZakalinsky.github.io/hws2",
+  "homepage": "https://github.com/Fergus-son/Sprint-02/tree/main/HW",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@emotion/react": "11.10.4",
     "@emotion/styled": "11.10.4",
