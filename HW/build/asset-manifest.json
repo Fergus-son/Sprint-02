@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/hws2/static/css/main.1c3db8e2.css",
-    "main.js": "/hws2/static/js/main.75bf9c18.js",
-    "static/js/697.7eb04221.chunk.js": "/hws2/static/js/697.7eb04221.chunk.js",
-    "static/media/avatar.png": "/hws2/static/media/avatar.d947cb9d0d13765666b6.png",
-    "index.html": "/hws2/index.html",
-    "main.1c3db8e2.css.map": "/hws2/static/css/main.1c3db8e2.css.map",
-    "main.75bf9c18.js.map": "/hws2/static/js/main.75bf9c18.js.map",
-    "697.7eb04221.chunk.js.map": "/hws2/static/js/697.7eb04221.chunk.js.map"
+    "main.css": "/Fergus-son/Sprint-02/tree/main/HW/static/css/main.1c3db8e2.css",
+    "main.js": "/Fergus-son/Sprint-02/tree/main/HW/static/js/main.ae94ecde.js",
+    "static/js/697.7eb04221.chunk.js": "/Fergus-son/Sprint-02/tree/main/HW/static/js/697.7eb04221.chunk.js",
+    "static/media/avatar.png": "/Fergus-son/Sprint-02/tree/main/HW/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/Fergus-son/Sprint-02/tree/main/HW/index.html",
+    "main.1c3db8e2.css.map": "/Fergus-son/Sprint-02/tree/main/HW/static/css/main.1c3db8e2.css.map",
+    "main.ae94ecde.js.map": "/Fergus-son/Sprint-02/tree/main/HW/static/js/main.ae94ecde.js.map",
+    "697.7eb04221.chunk.js.map": "/Fergus-son/Sprint-02/tree/main/HW/static/js/697.7eb04221.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c3db8e2.css",
-    "static/js/main.75bf9c18.js"
+    "static/js/main.ae94ecde.js"
   ]
 }
